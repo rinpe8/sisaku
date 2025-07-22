@@ -56,7 +56,7 @@
     searchBtn.addEventListener('click', async () => {
       resultsDiv.innerHTML = '検索中...';
 
-      const appId = 'YOUR_APP_ID'; // ★楽天APIのアプリIDに置き換えてください
+      const appId = 'rinpei09058731562.outlook,jp'; // 
       const apiUrl = `https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706?format=json&applicationId=${appId}&keyword=${encodeURIComponent(keyword)}&hits=10`;
 
       try {
